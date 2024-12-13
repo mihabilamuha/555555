@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4d4b6f2eba400f696b6161a7377d9312 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4d4b6f2eba400f696b6161a7377d9312" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4d4b6f2eba400f696b6161a7377d9312 = L.map(
+                "map_4d4b6f2eba400f696b6161a7377d9312",
+                {
+                    center: [50.449606, 30.522587],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f19d661ea95a9d7b4b677ceffd9c5c6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4d4b6f2eba400f696b6161a7377d9312);
+        
+    
+            var marker_2bd22157ff36cc6dd2773e9cd3be80cd = L.marker(
+                [50.394978, 30.422346],
+                {}
+            ).addTo(map_4d4b6f2eba400f696b6161a7377d9312);
+        
+    
+            var icon_9d7cdfafa7ba9c4ed236eebc8f291f9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warehouse", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bd22157ff36cc6dd2773e9cd3be80cd.setIcon(icon_9d7cdfafa7ba9c4ed236eebc8f291f9a);
+        
+    
+        var popup_0dcb4274194e4348062a7e0643b6f87b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b0c5f81475c9ac65379bc6c27a9aa85 = $(`<div id="html_1b0c5f81475c9ac65379bc6c27a9aa85" style="width: 100.0%; height: 100.0%;">Склад 1, Запас: 30</div>`)[0];
+            popup_0dcb4274194e4348062a7e0643b6f87b.setContent(html_1b0c5f81475c9ac65379bc6c27a9aa85);
+        
+
+        marker_2bd22157ff36cc6dd2773e9cd3be80cd.bindPopup(popup_0dcb4274194e4348062a7e0643b6f87b)
+        ;
+
+        
+    
+    
+            var marker_a53c179c18807881f4cee5dd39c224ea = L.marker(
+                [50.569114, 30.488704],
+                {}
+            ).addTo(map_4d4b6f2eba400f696b6161a7377d9312);
+        
+    
+            var icon_6d91567de279076cdc43d17f12f83662 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warehouse", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a53c179c18807881f4cee5dd39c224ea.setIcon(icon_6d91567de279076cdc43d17f12f83662);
+        
+    
+        var popup_1f07c511936249fd7836c3977ec350ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84b2588be36527001ddabc11f91b24f0 = $(`<div id="html_84b2588be36527001ddabc11f91b24f0" style="width: 100.0%; height: 100.0%;">Склад 2, Запас: 40</div>`)[0];
+            popup_1f07c511936249fd7836c3977ec350ca.setContent(html_84b2588be36527001ddabc11f91b24f0);
+        
+
+        marker_a53c179c18807881f4cee5dd39c224ea.bindPopup(popup_1f07c511936249fd7836c3977ec350ca)
+        ;
+
+        
+    
+    
+            var marker_47edfe17a7a42a4e29c4ad6748f574e2 = L.marker(
+                [50.546565, 30.700123],
+                {}
+            ).addTo(map_4d4b6f2eba400f696b6161a7377d9312);
+        
+    
+            var icon_bb9a512090a23447ce0ceb90b3d36685 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warehouse", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47edfe17a7a42a4e29c4ad6748f574e2.setIcon(icon_bb9a512090a23447ce0ceb90b3d36685);
+        
+    
+        var popup_458fdde7d482634cfcd88480bac4268c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd5288be294fdcba697a870693ff38e1 = $(`<div id="html_fd5288be294fdcba697a870693ff38e1" style="width: 100.0%; height: 100.0%;">Склад 3, Запас: 30</div>`)[0];
+            popup_458fdde7d482634cfcd88480bac4268c.setContent(html_fd5288be294fdcba697a870693ff38e1);
+        
+
+        marker_47edfe17a7a42a4e29c4ad6748f574e2.bindPopup(popup_458fdde7d482634cfcd88480bac4268c)
+        ;
+
+        
+    
+    
+            var marker_639e7e3bfeddf9230d3f16d7a4171d25 = L.marker(
+                [50.449606, 30.522587],
+                {}
+            ).addTo(map_4d4b6f2eba400f696b6161a7377d9312);
+        
+    
+            var icon_9164780a3f4e108da2d93907f8b16a3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shopping-cart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_639e7e3bfeddf9230d3f16d7a4171d25.setIcon(icon_9164780a3f4e108da2d93907f8b16a3a);
+        
+    
+        var popup_c288c65efee9086272f22194a342eaf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f24fe236469ea8afad2f0b954c7a186 = $(`<div id="html_3f24fe236469ea8afad2f0b954c7a186" style="width: 100.0%; height: 100.0%;">Магазин (Calvin Klein), Попит: 100</div>`)[0];
+            popup_c288c65efee9086272f22194a342eaf6.setContent(html_3f24fe236469ea8afad2f0b954c7a186);
+        
+
+        marker_639e7e3bfeddf9230d3f16d7a4171d25.bindPopup(popup_c288c65efee9086272f22194a342eaf6)
+        ;
+
+        
+    
+    
+            var poly_line_815656f81416de96b3e47a39c3acb7a4 = L.polyline(
+                [[50.394978, 30.422346], [50.449606, 30.522587]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3.0}
+            ).addTo(map_4d4b6f2eba400f696b6161a7377d9312);
+        
+    
+            poly_line_815656f81416de96b3e47a39c3acb7a4.bindTooltip(
+                `<div>
+                     Склад 1 -> Магазин: 30 одиниць
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8bf016652d82eb492d773c513e3ced5d = L.polyline(
+                [[50.569114, 30.488704], [50.449606, 30.522587]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4.0}
+            ).addTo(map_4d4b6f2eba400f696b6161a7377d9312);
+        
+    
+            poly_line_8bf016652d82eb492d773c513e3ced5d.bindTooltip(
+                `<div>
+                     Склад 2 -> Магазин: 40 одиниць
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_10977184c178c1b9bec6296535a8aa68 = L.polyline(
+                [[50.546565, 30.700123], [50.449606, 30.522587]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3.0}
+            ).addTo(map_4d4b6f2eba400f696b6161a7377d9312);
+        
+    
+            poly_line_10977184c178c1b9bec6296535a8aa68.bindTooltip(
+                `<div>
+                     Склад 3 -> Магазин: 30 одиниць
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
